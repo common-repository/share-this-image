@@ -1,0 +1,159 @@
+.nav-tab.premium-tab {
+    background: #FFF7C7;
+}
+
+.nav-tab.premium-tab:hover {
+    background: #fff;
+}
+
+#sti_form textarea {
+    width: 35em;
+}
+
+#sti_form .heading {
+
+}
+
+#sti_form .heading th {
+    padding-top: 0;
+}
+
+#sti_form .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#sti_form .clearfix { display: inline-block; }
+
+
+#sti_form ul.items-list {
+    display: block;
+    margin: 0;
+    max-width: 700px;
+}
+
+#sti_form ul.items-list li.item {
+    position: relative;
+    margin: 3px 5px 10px 0;
+    padding: 3px 20px 5px 5px;
+    border: 1px solid #aaa;
+    max-width: 100%;
+    border-radius: 3px;
+    background-color: #eee;
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(20%,#f4f4f4),color-stop(50%,#f0f0f0),color-stop(52%,#e8e8e8),color-stop(100%,#eee));
+    background-image: -webkit-linear-gradient(#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eee 100%);
+    background-image: -moz-linear-gradient(#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eee 100%);
+    background-image: -o-linear-gradient(#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eee 100%);
+    background-image: linear-gradient(#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eee 100%);
+    background-size: 100% 19px;
+    background-repeat: repeat-x;
+    background-clip: padding-box;
+    box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0,0,0,.05);
+    color: #333;
+    line-height: 13px;
+    cursor: default;
+    float: left;
+    list-style: none;
+}
+
+#sti_form ul.items-list li.item .name {
+    word-wrap: break-word;
+}
+
+#sti_form ul.items-list li.item .close {
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #000;
+}
+#sti_form ul.items-list li.item .close:hover {
+    color: #ff0000;
+}
+
+
+
+
+.wrap .sti-title {
+	padding: 10px 0 20px;
+}
+
+
+#sti_form .sortable-container {
+    width: 200px;
+    padding: 0;
+    float: left;
+    margin-right: 10px;
+}
+
+#sti_form .sortable-title {
+    padding: 8px 0;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+#sti_form .sti-sortable {
+    border: 1px solid #C7C4C4;
+    background: #fff7f7;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    margin-right: 10px;
+    min-height: 180px;
+}
+
+#sti_form .sti-sortable.enabled {
+    background: #ddf0dc;
+}
+
+#sti_form .sti-sortable li.sti-btn,
+#sti_form .sti-sortable li.highlight,
+#sti_form .sti-sortable li#excerpt {
+    display: inline-block;
+    /*float: left;*/
+    width: 100%;
+    height: auto;
+    margin: 0 3px 3px 0;
+    cursor: pointer;
+    background: #F1F1F1;
+    border: 1px solid #C7C4C4;
+    text-align: center;
+    padding: 8px 0;
+    text-transform: capitalize;
+}
+
+#sti_form .sti-sortable li.highlight {
+    background: #fff;
+    width: 100%;
+    height: 36px;
+    padding: 0;
+    border: 1px dotted #ccc;
+}
+
+
+#primary_menu1.sti-sortable li.sti-btn,
+#primary_menu2.sti-sortable li.sti-btn{
+    background: transparent url('../images/sti-button-flat-small.png') 0 0 no-repeat;
+    color: #fff;
+}
+
+#sti_form .sti-sortable li.sti-facebook-btn { background-position: 0 0 !important; background-color: #305891; }
+#sti_form .sti-sortable li.sti-twitter-btn { background-position: 0 -36px !important; background-color: #05aced; }
+#sti_form .sti-sortable li.sti-google-btn { background-position: 0 -72px !important; background-color: #db4935; }
+#sti_form .sti-sortable li.sti-linkedin-btn { background-position: 0 -108px !important; background-color: #007cb9; }
+#sti_form .sti-sortable li.sti-pinterest-btn { background-position: 0 -144px !important; background-color: #ec1a22; }
+#sti_form .sti-sortable li.sti-tumblr-btn { background-position: 0 -180px !important; background-color: #326381; }
+#sti_form .sti-sortable li.sti-reddit-btn { background-position: 0 -216px !important; background-color: #e8e8e8; }
+#sti_form .sti-sortable li.sti-digg-btn { background-position: 0 -252px !important; background-color: #303030; }
+#sti_form .sti-sortable li.sti-delicious-btn { background-position: 0 -288px !important; background-color: #4576bd; }
+#sti_form .sti-sortable li.sti-vkontakte-btn { background-position: 0 -324px !important; background-color: #2f5070; }
+#sti_form .sti-sortable li.sti-odnoklassniki-btn { background-position: 0 -360px !important; background-color: #ff6600; }
